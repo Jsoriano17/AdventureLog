@@ -16,6 +16,7 @@ const LogInPage = () => {
                 </ContainerRow>
                 <ContainerRow>
                     <p>Password</p>
+                    <StyledInput placeholder='password' />
                 </ContainerRow>
                 <StyledButton type='submit' onClick={changeLoggedIn}>Submit</StyledButton>
             </ContainerCol>
