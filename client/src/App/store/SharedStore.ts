@@ -1,10 +1,16 @@
-import {observable, action, runInAction, configure} from 'mobx';
-import { createContext, SyntheticEvent } from 'react';
+import { action, configure, observable, runInAction } from 'mobx';
+import { createContext } from 'react';
 
 configure({enforceActions: "always"})
 
 export class SharedStore {
-    @observable loggedIn = false; 
+    @observable loggedIn = false;
+
+    @action changeLoggedIn = () => {
+        runInAction("change log in ", () => {
+            this.loggedIn = !this.loggedIn;
+        })
+    }
 }
 
-export default createContext(new SharedStore())
+export default createContext(new SharedStore());

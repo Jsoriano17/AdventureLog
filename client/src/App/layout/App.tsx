@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import './App.css';
+import { Route, Switch } from 'react-router-dom';
+import Home from '../components/Home';
+import { observer } from 'mobx-react-lite';
+import SharedStore from '../store/SharedStore';
+import LogInPage from '../components/LogInPage';
 
-const App = () => {
-  return (
-   <div>
-     <h1>app</h1>
-   </div>
-  );
-}
+const App: React.FC = () => {
 
-export default App;
+  const sharedStore = useContext(SharedStore);
+  const { loggedIn } = sharedStore;
+
+    if (loggedIn) {
+      return (
+        <>
+          <Switch>
+            <Route path='/' component={Home} />
+          </Switch>
+        </>
+      );
+    } else {
+      return <LogInPage />
+    }
+  }
+
+    export default observer(App);
+
