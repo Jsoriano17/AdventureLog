@@ -1,13 +1,24 @@
 import { Col, Row } from 'antd';
 import { observer } from 'mobx-react-lite';
-import React, { useContext } from 'react';
+import React, { FormEvent, useContext, useState } from 'react';
 import styled from 'styled-components';
 import SharedStore from '../store/SharedStore';
 import eye from '../assets/eye-blinking.gif';
 const LogInPage = () => {
     const sharedStore = useContext(SharedStore);
-    const { changeLoggedIn } = sharedStore;
+    const { loginToApp } = sharedStore;
 
+    const [info, setInfo] = useState({ username: '', password: ''});
+
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        loginToApp(info.username, info.password);
+        e.preventDefault();
+    }
+
+    const handleChange = (event: FormEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { name, value } = event.currentTarget;
+        setInfo({ ...info, [name]: value });
+    }
 
     return (
         <Container>
@@ -15,15 +26,24 @@ const LogInPage = () => {
                 <img src={eye} width='90%' />
             </Component>
             <StyledHeader>For your eyes only.</StyledHeader>
-            <ContainerRow>
-                <p>Username</p>
-                <StyledInput placeholder='username' />
-            </ContainerRow>
-            <ContainerRow>
-                <p>Password</p>
-                <StyledInput type='password' placeholder='password' />
-            </ContainerRow>
-            <StyledButton type='submit' onClick={changeLoggedIn}>Submit</StyledButton>
+            <form onSubmit={handleSubmit}>
+                <ContainerRow>
+                    <p>Username</p>
+                    <StyledInput 
+                    name='username' 
+                    onChange={handleChange} 
+                    placeholder='username' />
+                </ContainerRow>
+                <ContainerRow>
+                    <p>Password</p>
+                    <StyledInput 
+                    name='password' 
+                    onChange={handleChange} 
+                    type='password' 
+                    placeholder='password' />
+                </ContainerRow>
+                <StyledButton type='submit'>Submit</StyledButton>
+            </form>
         </Container>
     )
 }
@@ -56,8 +76,7 @@ const StyledButton = styled.button`
     width: 70px;
     color: black;
     background-color: grey;
-    outline: #858585
-    padding: 20px;
+    outline: #858585;
     border: 2px solid #333333;
 `
 const StyledInput = styled.input`
