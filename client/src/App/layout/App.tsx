@@ -5,6 +5,7 @@ import Home from '../components/Home';
 import { observer } from 'mobx-react-lite';
 import SharedStore from '../store/SharedStore';
 import LogInPage from '../components/LogInPage';
+import Navbar from '../components/Navbar';
 
 const App: React.FC = () => {
 
@@ -14,6 +15,7 @@ const App: React.FC = () => {
     if (loggedIn) {
       return (
         <>
+          <Navbar/>
           <Switch>
             <Route path='/' component={Home} />
           </Switch>
