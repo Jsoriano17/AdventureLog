@@ -2,6 +2,10 @@ import { observer } from 'mobx-react-lite';
 import React from 'react';
 import styled from 'styled-components';
 import FaceGif from '../assets/savannah_and_jeff_gif.gif';
+import FirstConversation from './adventure_log/FirstConversation';
+import FirstDate from './adventure_log/FirstDate';
+import SecondDate from './adventure_log/SecondDate';
+import TheAquarium from './adventure_log/TheAquarium';
 import Introduction from './Introduction';
 
 const Home = () => {
@@ -22,6 +26,18 @@ const Home = () => {
             </Container>
             <Container>
                 <Introduction />
+            </Container>
+            <Container>
+                <FirstConversation />
+            </Container>
+            <Container>
+                <FirstDate />
+            </Container>
+            <Container>
+                <SecondDate />
+            </Container>
+            <Container>
+                <TheAquarium />
             </Container>
         </div>
     )

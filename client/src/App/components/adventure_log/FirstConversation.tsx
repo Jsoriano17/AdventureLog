@@ -1,16 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
+import convo from '../../assets/conversation.jpg';
 
-const Introduction  = () => {
+const FirstConversation = () => {
     return (
         <Container>
-            <StyledHeader>Where Do We Start...</StyledHeader>
-            <StyledParagraph>Theres not many ways to start an adventure log so why don't we start from the beginning.</StyledParagraph>
+            <StyledHeader>First Conversation</StyledHeader>
+            <img src={convo} width="100%"/>
         </Container>
     )
 }
 
-export default Introduction; 
+export default FirstConversation;
 
 const Container = styled.div`
     display: flex; 
@@ -19,18 +20,9 @@ const Container = styled.div`
     justify-content: center;
     margin-top: 50px;
 `
-
 const StyledHeader = styled.p`
     font-family: amatic-bold;
     text-align: center;
     font-size: 45px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 `
-
-const StyledParagraph = styled.p`
-    font-family: amatic;
-    text-align: center;
-    font-size: 25px;
-`
-
-

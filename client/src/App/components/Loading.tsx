@@ -4,9 +4,13 @@ import styled from 'styled-components';
 import LoadingGif from '../assets/loading_gif.gif';
 
 const Loading = () => {
+
+    const waitToRender = () => {
+       
+    }
     return (
         <Container>
-            <img src={LoadingGif} width="100%"/>
+          <img src={LoadingGif} width="100%" />
         </Container>
     )
 }

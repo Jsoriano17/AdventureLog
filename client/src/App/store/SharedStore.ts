@@ -5,7 +5,7 @@ import { createFalse } from 'typescript';
 configure({enforceActions: "always"})
 
 export class SharedStore {
-    @observable loggedIn = false;
+    @observable loggedIn = true;
     @observable loading = false;
 
     @action loginToApp = (username: string, password: string) => {
@@ -20,7 +20,7 @@ export class SharedStore {
                 this.loggedIn = !this.loggedIn;
             })
         } else {
-            runInAction("change log in ", () => {
+            runInAction("change log in", () => {
                 this.loggedIn = false;
             })
             alert("Leave Now.");
