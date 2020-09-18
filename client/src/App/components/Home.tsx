@@ -2,6 +2,7 @@ import { observer } from 'mobx-react-lite';
 import React from 'react';
 import styled from 'styled-components';
 import FaceGif from '../assets/savannah_and_jeff_gif.gif';
+import Introduction from './Introduction';
 
 const Home = () => {
     return (
@@ -18,6 +19,9 @@ const Home = () => {
             <Container>
                 <StyledP>Savannah</StyledP>
                 <StyledP>Jeffrey</StyledP>
+            </Container>
+            <Container>
+                <Introduction />
             </Container>
         </div>
     )
