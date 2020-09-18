@@ -6,7 +6,7 @@ const FirstConversation = () => {
     return (
         <Container>
             <StyledHeader>First Conversation</StyledHeader>
-            <img src={convo} width="100%"/>
+            <StyledImg src={convo} width="100%"/>
         </Container>
     )
 }
@@ -25,4 +25,8 @@ const StyledHeader = styled.p`
     text-align: center;
     font-size: 45px;
     margin-bottom: 30px;
+`
+
+const StyledImg = styled.img`
+    margin-bottom: 60px;
 `

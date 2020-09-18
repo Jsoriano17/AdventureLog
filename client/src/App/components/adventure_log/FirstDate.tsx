@@ -28,7 +28,7 @@ const StyledParagraph = styled.p`
     font-family: amatic;
     font-size: 25px;
     position: absolute; 
-    left: 90px;
+    left: 95px;
     top: 125px;
 `
 const StyledParagraph2 = styled.p`

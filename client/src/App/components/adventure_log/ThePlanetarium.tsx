@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import background from '../../assets/the-aquarium.jpg';
+import background from '../../assets/the-planetarium.jpg';
 
-const TheAquarium = () => {
+const ThePlanetarium = () => {
     return (
         <Container>
             <img src={background} width="100%"/>
@@ -10,7 +10,7 @@ const TheAquarium = () => {
     )
 }
 
-export default TheAquarium;
+export default ThePlanetarium;
 
 const Container = styled.div`
     display: flex; 

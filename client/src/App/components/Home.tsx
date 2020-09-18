@@ -6,23 +6,24 @@ import FirstConversation from './adventure_log/FirstConversation';
 import FirstDate from './adventure_log/FirstDate';
 import SecondDate from './adventure_log/SecondDate';
 import TheAquarium from './adventure_log/TheAquarium';
-import Introduction from './Introduction';
+import Introduction from './adventure_log/Introduction';
+import ThePlanetarium from './adventure_log/ThePlanetarium';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <StyledHeader>Our Adventure</StyledHeader>
             <Container>
                 <Line />
-                <StyledHeader>Log</StyledHeader>
+                <StyledHeader2>Log</StyledHeader2>
                 <Line />
             </Container>
             <Container>
                 <img src={FaceGif}  width='100%'/>
             </Container>
             <Container>
-                <StyledP>Savannah</StyledP>
-                <StyledP>Jeffrey</StyledP>
+                <StyledP1>Savannah</StyledP1>
+                <StyledP2>Jeffrey</StyledP2>
             </Container>
             <Container>
                 <Introduction />
@@ -39,7 +40,10 @@ const Home = () => {
             <Container>
                 <TheAquarium />
             </Container>
-        </div>
+            <Container>
+                <ThePlanetarium/>
+            </Container>
+        </>
     )
 }
 
@@ -57,6 +61,15 @@ const StyledHeader = styled.p`
     font-family: amatic-bold;
     text-align: center;
     margin: 0px;
+    line-height: 1;
+    margin-top: 15px;
+`
+const StyledHeader2 = styled.p`
+    font-size: 70px;
+    font-family: amatic-bold;
+    text-align: center;
+    margin: 0px;
+    line-height: 1;
 `
 
 const Line = styled.div`
@@ -66,9 +79,16 @@ const Line = styled.div`
     margin: 0px 20px;
 `
 
-const StyledP = styled.p`
+const StyledP1 = styled.p`
     font-size: 30px;
     font-family: amatic;
     text-align: center;
-    margin: 0px 15%;
+    margin: 0px 13%;
+`
+
+const StyledP2 = styled.p`
+    font-size: 30px;
+    font-family: amatic;
+    text-align: center;
+    margin: 0px 17%;
 `
