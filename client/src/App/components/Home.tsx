@@ -8,6 +8,8 @@ import SecondDate from './adventure_log/SecondDate';
 import TheAquarium from './adventure_log/TheAquarium';
 import Introduction from './adventure_log/Introduction';
 import ThePlanetarium from './adventure_log/ThePlanetarium';
+import HauntedHouse from './adventure_log/HauntedHouse';
+import ButterflyBiosphere from './adventure_log/ButterflyBiosphere';
 
 const Home = () => {
     return (
@@ -42,6 +44,12 @@ const Home = () => {
             </Container>
             <Container>
                 <ThePlanetarium/>
+            </Container>
+            <Container>
+                <HauntedHouse/>
+            </Container>
+            <Container>
+                <ButterflyBiosphere/>
             </Container>
         </>
     )
