@@ -15,6 +15,10 @@ const Home = () => {
             <Container>
                 <img src={FaceGif}  width='100%'/>
             </Container>
+            <Container>
+                <StyledP>Savannah</StyledP>
+                <StyledP>Jeffrey</StyledP>
+            </Container>
         </div>
     )
 }
@@ -40,4 +44,11 @@ const Line = styled.div`
     width: 70px; 
     height: 2px;
     margin: 0px 20px;
+`
+
+const StyledP = styled.p`
+    font-size: 30px;
+    font-family: amatic;
+    text-align: center;
+    margin: 0px 15%;
 `
