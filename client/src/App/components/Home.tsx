@@ -13,6 +13,7 @@ import ButterflyBiosphere from './adventure_log/ButterflyBiosphere';
 import SaltLake from './adventure_log/SaltLake';
 import IceSkating from './adventure_log/IceSkating';
 import ChristmasLights from './adventure_log/ChristmasLights';
+import { BackTop } from 'antd';
 
 const Home = () => {
     return (
@@ -66,6 +67,7 @@ const Home = () => {
             <Container>
                 <StyledHeader3>To Be Continued...</StyledHeader3>
             </Container>
+            <BackTop />
         </>
     )
 }
