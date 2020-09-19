@@ -12,6 +12,7 @@ import HauntedHouse from './adventure_log/HauntedHouse';
 import ButterflyBiosphere from './adventure_log/ButterflyBiosphere';
 import SaltLake from './adventure_log/SaltLake';
 import IceSkating from './adventure_log/IceSkating';
+import ChristmasLights from './adventure_log/ChristmasLights';
 
 const Home = () => {
     return (
@@ -59,6 +60,12 @@ const Home = () => {
             <Container>
                 <IceSkating/>
             </Container>
+            <Container>
+                <ChristmasLights/>
+            </Container>
+            <Container>
+                <StyledHeader3>To Be Continued...</StyledHeader3>
+            </Container>
         </>
     )
 }
@@ -86,6 +93,12 @@ const StyledHeader2 = styled.p`
     text-align: center;
     margin: 0px;
     line-height: 1;
+`
+const StyledHeader3 = styled.p`
+    font-size: 50px;
+    font-family: amatic-bold;
+    text-align: center;
+    margin: 0px;
 `
 
 const Line = styled.div`
