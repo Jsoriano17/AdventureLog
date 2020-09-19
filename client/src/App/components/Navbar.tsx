@@ -21,8 +21,7 @@ const Navbar = () => {
       return (
         <StyledNav>
           <StyledUl>
-            <li>Home</li>
-            <li>Introduction</li>
+            <li>Adventure Start</li>
             <li>Memories</li>
             <li>Add Message...</li>
           </StyledUl>
