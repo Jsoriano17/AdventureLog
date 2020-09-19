@@ -10,6 +10,8 @@ import Introduction from './adventure_log/Introduction';
 import ThePlanetarium from './adventure_log/ThePlanetarium';
 import HauntedHouse from './adventure_log/HauntedHouse';
 import ButterflyBiosphere from './adventure_log/ButterflyBiosphere';
+import SaltLake from './adventure_log/SaltLake';
+import IceSkating from './adventure_log/IceSkating';
 
 const Home = () => {
     return (
@@ -28,19 +30,19 @@ const Home = () => {
                 <StyledP2>Jeffrey</StyledP2>
             </Container>
             <Container>
-                <Introduction />
+                <Introduction/>
             </Container>
             <Container>
-                <FirstConversation />
+                <FirstConversation/>
             </Container>
             <Container>
-                <FirstDate />
+                <FirstDate/>
             </Container>
             <Container>
-                <SecondDate />
+                <SecondDate/>
             </Container>
             <Container>
-                <TheAquarium />
+                <TheAquarium/>
             </Container>
             <Container>
                 <ThePlanetarium/>
@@ -50,6 +52,12 @@ const Home = () => {
             </Container>
             <Container>
                 <ButterflyBiosphere/>
+            </Container>
+            <Container>
+                <SaltLake/>
+            </Container>
+            <Container>
+                <IceSkating/>
             </Container>
         </>
     )
