@@ -34,7 +34,7 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     position: relative; 
-    margin-bottom: 245px;
+    margin-bottom: 200px;
 `
 
 const StyledParagraph = styled.p`
@@ -42,13 +42,13 @@ const StyledParagraph = styled.p`
     font-size: 25px;
     position: absolute; 
     left: 68.5%;
-    top: 19%;
+    top: 18%;
 `
 const StyledParagraph2 = styled.p`
     font-family: amatic;
     font-size: 25px;
     position: absolute; 
     left: 4%;
-    top: 76%;
+    top: 67%;
     right: 2%;
 `

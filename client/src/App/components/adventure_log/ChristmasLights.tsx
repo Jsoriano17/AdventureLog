@@ -48,13 +48,13 @@ const StyledParagraph = styled.p`
     font-size: 25px;
     position: absolute; 
     left: 16%;
-    top: 50%;
+    top: 47%;
 `
 const StyledParagraph2 = styled.p`
     font-family: amatic;
     font-size: 25px;
     position: absolute; 
     left: 4%;
-    top: 57%;
+    top: 53%;
     right: 2%;
 `

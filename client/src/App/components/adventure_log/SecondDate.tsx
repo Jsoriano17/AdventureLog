@@ -5,7 +5,7 @@ import background from '../../assets/second-date.jpg';
 const SecondDate = () => {
     return (
         <Container>
-            <img src={background} width="100%" />
+            <img src={background} width="100%"/>
             <StyledParagraph>
                 The second date was rollerskating with a boy <br /> who
                 didn't know how to, nothing could
@@ -37,7 +37,7 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 260px;
+    margin-bottom: 200px;
     position: relative; 
 `
 
@@ -46,21 +46,21 @@ const StyledParagraph = styled.p`
     font-size: 25px;
     position: absolute; 
     left: 4%;
-    top: 16%;
+    top: 14%;
 `
 const StyledParagraph2 = styled.p`
     font-family: amatic;
     font-size: 25px;
     position: absolute; 
     left: 52%;
-    top: 31%;
+    top: 28%;
 `
 const StyledParagraph3 = styled.p`
     font-family: amatic;
     font-size: 25px;
     position: absolute; 
     left: 30%;
-    top: 84%;
+    top: 78%;
     right: 2%;
 `
 const StyledParagraph4 = styled.p`
@@ -68,6 +68,6 @@ const StyledParagraph4 = styled.p`
     font-size: 25px;
     position: absolute; 
     left: 4%;
-    top: 98%;
+    top: 92%;
     right: 2%;
 `
