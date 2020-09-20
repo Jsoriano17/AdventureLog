@@ -26,44 +26,44 @@ const Home = () => {
                 <Line />
             </Container>
             <Container>
-                <img src={FaceGif}  width='100%'/>
+                <img src={FaceGif} width='100%' />
             </Container>
             <Container>
                 <StyledP1>Savannah</StyledP1>
                 <StyledP2>Jeffrey</StyledP2>
             </Container>
             <Container>
-                <Introduction/>
+                <Introduction />
             </Container>
             <Container id="start">
-                <FirstConversation/>
+                <FirstConversation />
             </Container>
             <Container>
-                <FirstDate/>
+                <FirstDate />
             </Container>
             <Container>
-                <SecondDate/>
+                <SecondDate />
             </Container>
             <Container>
-                <TheAquarium/>
+                <TheAquarium />
             </Container>
             <Container>
-                <ThePlanetarium/>
+                <ThePlanetarium />
             </Container>
             <Container>
-                <HauntedHouse/>
+                <HauntedHouse />
             </Container>
             <Container>
-                <ButterflyBiosphere/>
+                <ButterflyBiosphere />
             </Container>
             <Container>
-                <SaltLake/>
+                <SaltLake />
             </Container>
             <Container>
-                <IceSkating/>
+                <IceSkating />
             </Container>
             <Container>
-                <ChristmasLights/>
+                <ChristmasLights />
             </Container>
             <Container>
                 <StyledHeader3>To Be Continued...</StyledHeader3>

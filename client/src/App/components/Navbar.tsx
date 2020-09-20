@@ -29,7 +29,7 @@ const Navbar = () => {
                 to="start"
                 spy={true}
                 smooth={true}
-                offset={40}
+                offset={10}
                 duration={500}
                 style={{color: 'black'}}
               >

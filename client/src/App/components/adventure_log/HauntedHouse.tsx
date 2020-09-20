@@ -9,7 +9,7 @@ const HauntedHouse = () => {
             <StyledParagraph>
                 Halloween was finally coming close and the two were looking
                 for something spooky to go do together.  They settled on the
-                idea of heading to a haunted house. 
+                idea of heading to a haunted house.
             </StyledParagraph>
             <StyledParagraph2>
                 Before heading to the event

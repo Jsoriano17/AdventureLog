@@ -6,6 +6,17 @@ const ButterflyBiosphere = () => {
     return (
         <Container>
             <img src={background} width="100%"/>
+            <StyledParagraph>
+                The butterfly biosphere a<br/> place I almost forgot 
+                about, I'm sure <br/>Jeff's tried to. This place<br/> was 
+                a nightmare for Jeff.<br/> The place was filled with <br/>
+                insects and he was<br/> terrified of all of them.<br/> 
+                Savannah on the other<br/> hand seemingly wanted to 
+                hold all of them(really showing Jeff up here). 
+                It was a cool experience for Jeff but he wanted 
+                out ASAP. Savannah got Jeff to hold a butterfly 
+                and the two-headed home. 
+            </StyledParagraph>
         </Container>
     )
 }
@@ -18,12 +29,14 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     position: relative; 
+    margin-bottom: 140px;
 `
 
 const StyledParagraph = styled.p`
     font-family: amatic;
     font-size: 25px;
     position: absolute; 
-    left: 90px;
-    top: 125px;
+    left: 4%;
+    top: 43%;
+    right: 2%;
 `
