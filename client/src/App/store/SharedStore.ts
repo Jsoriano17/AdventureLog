@@ -5,7 +5,7 @@ import { createFalse } from 'typescript';
 configure({enforceActions: "always"})
 
 export class SharedStore {
-    @observable loggedIn = false;
+    @observable loggedIn = true;
     @observable loading = false;
 
     @action loginToApp = (username: string, password: string) => {

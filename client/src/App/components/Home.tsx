@@ -14,6 +14,7 @@ import SaltLake from './adventure_log/SaltLake';
 import IceSkating from './adventure_log/IceSkating';
 import ChristmasLights from './adventure_log/ChristmasLights';
 import { BackTop } from 'antd';
+import Memories from './Memories';
 
 const Home = () => {
     return (
@@ -34,7 +35,7 @@ const Home = () => {
             <Container>
                 <Introduction/>
             </Container>
-            <Container>
+            <Container id="start">
                 <FirstConversation/>
             </Container>
             <Container>
@@ -67,6 +68,9 @@ const Home = () => {
             <Container>
                 <StyledHeader3>To Be Continued...</StyledHeader3>
             </Container>
+            <Container id='memory'>
+                <Memories />
+            </Container>
             <BackTop />
         </>
     )
@@ -97,7 +101,7 @@ const StyledHeader2 = styled.p`
     line-height: 1;
 `
 const StyledHeader3 = styled.p`
-    font-size: 50px;
+    font-size: 45px;
     font-family: amatic-bold;
     text-align: center;
     margin: 0px;

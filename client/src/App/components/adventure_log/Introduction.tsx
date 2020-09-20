@@ -4,8 +4,20 @@ import styled from 'styled-components';
 const Introduction  = () => {
     return (
         <Container>
-            <StyledHeader>Where Do We Start...</StyledHeader>
-            <StyledParagraph>Theres not many ways to start an adventure log so why don't we start from the beginning.</StyledParagraph>
+            <StyledHeader>From The Beginning</StyledHeader>
+            <StyledParagraph>
+            Where do we start... well I guess there aren't many ways to start 
+            an adventure log other than from the beginning, so we'll do just 
+            that. This is an adventure log created for logging all the happy, 
+            fun, sad, exciting, and amazing things Savannah and Jeffrey have 
+            accomplished/done on their journey. This adventure log will start 
+            with their first instance of communication and continue through to 
+            their most recent adventure. Some small context before we start: 
+            Savannah and Jeffrey first talked on the 18th of September 2019 
+            through an online dating app called tinder and chatted until they 
+            eventually met up for their first date on the 23rd of September 2019.  
+            We'll let the rest of the page tell itself; enjoy!
+            </StyledParagraph>
         </Container>
     )
 }
@@ -31,6 +43,7 @@ const StyledParagraph = styled.p`
     font-family: amatic;
     text-align: center;
     font-size: 25px;
+    padding: 30px;
 `
 
 

@@ -2,6 +2,8 @@ import { NONAME } from 'dns';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import message from '../assets/message_of_the_day_gif.gif';
+import { Link } from "react-scroll";
+
 
 const Navbar = () => {
   const [active, setActive] = useState(true)
@@ -21,8 +23,33 @@ const Navbar = () => {
       return (
         <StyledNav>
           <StyledUl>
-            <li>Adventure Start</li>
-            <li>Memories</li>
+            <li>
+              <Link
+                activeClass="active"
+                to="start"
+                spy={true}
+                smooth={true}
+                offset={40}
+                duration={500}
+                style={{color: 'black'}}
+              >
+                The Beginning
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="active"
+                to="memory"
+                spy={true}
+                smooth={true}
+                offset={40}
+                duration={1100}
+                style={{color: 'black'}}
+              >
+                Memories
+              </Link>
+            </li>
+            <li>Create Memory</li>
             <li>Add Message...</li>
           </StyledUl>
         </StyledNav>
