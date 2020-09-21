@@ -33,7 +33,7 @@ const Container = styled.div`
     justify-content: center;
     position: relative; 
     margin-top: 45px;
-    margin-bottom: 145px;
+    margin-bottom: 155px;
 `
 
 const StyledParagraph = styled.p`
@@ -53,6 +53,6 @@ const StyledParagraph2 = styled.p`
 `
 const StyledLine = styled.img`
     position: absolute;
-    top: 110%;
+    top: 117%;
     z-index: 1;
 `
