@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import background from '../../assets/butterfly-biosphere.jpg';
+import Line from '../../assets/fourth-fifth.png';
 
 const ButterflyBiosphere = () => {
     return (
@@ -17,6 +18,7 @@ const ButterflyBiosphere = () => {
                 out ASAP. Savannah got Jeff to hold a butterfly 
                 and the two-headed home. 
             </StyledParagraph>
+            <StyledLine src={Line} width='100%'/>
         </Container>
     )
 }
@@ -39,4 +41,9 @@ const StyledParagraph = styled.p`
     left: 4%;
     top: 43%;
     right: 2%;
+`
+const StyledLine = styled.img`
+    position: absolute;
+    top: 110%;
+    z-index: 1;
 `

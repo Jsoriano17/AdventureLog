@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Line from '../../assets/intro-conversation.png';
 
 const Introduction  = () => {
     return (
@@ -18,6 +19,7 @@ const Introduction  = () => {
             eventually met up for their first date on the 23rd of September 2019.  
             We'll let the rest of the page tell itself; enjoy!
             </StyledParagraph>
+            <StyledLine src={Line} width='100%'/>
         </Container>
     )
 }
@@ -30,6 +32,8 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    position: relative;
+    margin-bottom: 50px;
 `
 
 const StyledHeader = styled.p`
@@ -46,4 +50,7 @@ const StyledParagraph = styled.p`
     padding: 30px;
 `
 
-
+const StyledLine = styled.img`
+    position: absolute;
+    top: 86%;
+`

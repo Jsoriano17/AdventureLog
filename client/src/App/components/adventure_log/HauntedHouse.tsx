@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import background from '../../assets/haunted-house.jpg';
+import Line from '../../assets/fifth-sixth.png';
 
 const HauntedHouse = () => {
     return (
@@ -23,6 +24,7 @@ const HauntedHouse = () => {
                 to the end and left home. before the night ended they shared
                 their first kiss.
             </StyledParagraph2>
+            <StyledLine src={Line} width='100%'/>
         </Container>
     )
 }
@@ -54,4 +56,9 @@ const StyledParagraph2 = styled.p`
     left: 4%;
     top: 85%;
     right: 2%;
+`
+const StyledLine = styled.img`
+    position: absolute;
+    top: 158%;
+    z-index: 1;
 `

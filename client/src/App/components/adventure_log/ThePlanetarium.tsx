@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import background from '../../assets/the-planetarium.jpg';
+import Line from '../../assets/fourth-fifth.png';
 
 const ThePlanetarium = () => {
     return (
@@ -22,6 +23,7 @@ const ThePlanetarium = () => {
                 bit and got food. It was a very successful date
                 compared to the last one.
             </StyledParagraph2>
+            <StyledLine src={Line} width='100%'/>
         </Container>
     )
 }
@@ -51,4 +53,9 @@ const StyledParagraph2 = styled.p`
     left: 4%;
     top: 67%;
     right: 2%;
+`
+const StyledLine = styled.img`
+    position: absolute;
+    top: 115%;
+    z-index: 1;
 `

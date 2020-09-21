@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import background from '../../assets/second-date.jpg';
+import Line from '../../assets/second-third.png';
 
 const SecondDate = () => {
     return (
@@ -25,6 +26,7 @@ const SecondDate = () => {
                 the mountains where they relaxed near a waterfall under
                 the stars.
             </StyledParagraph4>
+            <StyledLine src={Line} width='100%'/>
         </Container>
     )
 }
@@ -70,4 +72,9 @@ const StyledParagraph4 = styled.p`
     left: 4%;
     top: 92%;
     right: 2%;
+`
+const StyledLine = styled.img`
+    position: absolute;
+    top: 125%;
+    z-index: 1;
 `

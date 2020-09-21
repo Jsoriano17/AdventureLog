@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import background from '../../assets/the-aquarium.jpg';
+import Line from '../../assets/third-fourth.png';
 
 const TheAquarium = () => {
     return (
@@ -14,6 +15,7 @@ const TheAquarium = () => {
                 talking about animals and themselves. They stayed in the 
                 aquarium until it closed and left satisfied.
             </StyledParagraph>
+            <StyledLine src={Line} width='100%'/>
         </Container>
     )
 }
@@ -26,7 +28,7 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     position: relative; 
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 `
 
 const StyledParagraph = styled.p`
@@ -35,4 +37,9 @@ const StyledParagraph = styled.p`
     position: absolute; 
     left: 4%;
     top: 46%;
+`
+const StyledLine = styled.img`
+    position: absolute;
+    top: 98%;
+    z-index: 1;
 `

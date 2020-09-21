@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import background from '../../assets/first-date.jpg';
+import Line from '../../assets/first-second.png';
 
 const FirstDate = () => {
     // Ahh the first date, probably 
@@ -19,6 +20,7 @@ const FirstDate = () => {
             catch a movie called "Ad Astra", and ended the day
             with some games at a local arcade.
             </StyledParagraph3>
+            <StyledLine src={Line} width='100%'/>
         </Container>
     )
 }
@@ -56,4 +58,9 @@ const StyledParagraph3 = styled.p`
     left: 4%;
     top: 40%;
     right: 2%;
+`
+const StyledLine = styled.img`
+    position: absolute;
+    top: 110%;
+    z-index: 1;
 `

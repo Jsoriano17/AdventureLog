@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import convo from '../../assets/conversation.jpg';
+import Line from '../../assets/conversation-first.png';
 
 const FirstConversation = () => {
     return (
         <Container>
             <StyledHeader>First Conversation</StyledHeader>
             <StyledImg src={convo} width="100%"/>
+            <StyledLine src={Line} width='100%'/>
         </Container>
     )
 }
@@ -19,6 +21,8 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 0px;
+    position: relative;
+    margin-bottom: 30px;
 `
 const StyledHeader = styled.p`
     font-family: amatic-bold;
@@ -29,4 +33,9 @@ const StyledHeader = styled.p`
 
 const StyledImg = styled.img`
     margin-bottom: 60px;
+`
+const StyledLine = styled.img`
+    position: absolute;
+    top: 96%;
+    z-index: 1;
 `
