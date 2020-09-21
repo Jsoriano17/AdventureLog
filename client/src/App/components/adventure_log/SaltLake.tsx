@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import background from '../../assets/salt-lake.jpg';
+import Line from '../../assets/sixth-seventh.png';
 
 const SaltLake = () => {
     return (
@@ -18,6 +19,7 @@ const SaltLake = () => {
                 scenery. Not much else to say other than
                 it was a nice trip.
             </StyledParagraph2>
+            <StyledLine src={Line} width='100%'/>
         </Container>
     )
 }
@@ -31,7 +33,7 @@ const Container = styled.div`
     justify-content: center;
     position: relative; 
     margin-top: 45px;
-    margin-bottom: 80px;
+    margin-bottom: 145px;
 `
 
 const StyledParagraph = styled.p`
@@ -48,4 +50,9 @@ const StyledParagraph2 = styled.p`
     left: 4%;
     top: 92%;
     right: 2%;
+`
+const StyledLine = styled.img`
+    position: absolute;
+    top: 110%;
+    z-index: 1;
 `

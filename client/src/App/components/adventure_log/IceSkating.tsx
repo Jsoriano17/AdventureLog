@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import background from '../../assets/ice-skating.jpg';
+import Line from '../../assets/third-fourth.png';
 
 const IceSkating = () => {
     return (
@@ -25,6 +26,7 @@ const IceSkating = () => {
                 an excuse to come again).  The closing
                 time arrived and the day was over.
             </StyledParagraph4>
+            <StyledLine src={Line} width='100%'/>
         </Container>
     )
 }
@@ -38,7 +40,7 @@ const Container = styled.div`
     justify-content: center;
     position: relative; 
     margin-top: 45px;
-    margin-bottom: 130px;
+    margin-bottom: 160px;
 `
 
 const StyledParagraph = styled.p`
@@ -68,4 +70,11 @@ const StyledParagraph4 = styled.p`
     position: absolute; 
     left: 4%;
     top: 93%;
+`
+const StyledLine = styled.img`
+    position: absolute;
+    top: 125%;
+    z-index: 1;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 `
