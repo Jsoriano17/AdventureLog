@@ -15,6 +15,9 @@ import IceSkating from './adventure_log/IceSkating';
 import ChristmasLights from './adventure_log/ChristmasLights';
 import { BackTop } from 'antd';
 import Memories from './Memories';
+import Savannah from '../assets/savannah-name.gif';
+import Jeffrey from '../assets/jeffrey-name.gif';
+
 
 const Home = () => {
     return (
@@ -29,8 +32,8 @@ const Home = () => {
                 <img src={FaceGif} width='100%' />
             </Container>
             <Container>
-                <StyledP1>Savannah</StyledP1>
-                <StyledP2>Jeffrey</StyledP2>
+                <StyledImg src={Savannah} width='100px'/>
+                <StyledImg2 src={Jeffrey} width='100px'/>
             </Container>
             <Container>
                 <Introduction />
@@ -113,17 +116,9 @@ const Line = styled.div`
     height: 2px;
     margin: 0px 20px;
 `
-
-const StyledP1 = styled.p`
-    font-size: 30px;
-    font-family: amatic;
-    text-align: center;
-    margin: 0px 13%;
+const StyledImg = styled.img`
+    margin: 0px 11%;
 `
-
-const StyledP2 = styled.p`
-    font-size: 30px;
-    font-family: amatic;
-    text-align: center;
-    margin: 0px 17%;
+const StyledImg2 = styled.img`
+    margin: 0px 10%;
 `

@@ -40,7 +40,7 @@ const Container = styled.div`
     justify-content: center;
     position: relative; 
     margin-top: 45px;
-    margin-bottom: 500px;
+    margin-bottom: 430px;
 `
 
 const StyledParagraph = styled.p`
