@@ -6,14 +6,14 @@ import construction from '../assets/under-construction.png';
 const Memories = () => {
     return (
         <Container>
-            <StyledImg src={gif} />
+            <StyledImg src={gif} alt='memories'/>
             <StyledParagraph>
             So far only all the bigger things in our adventure have been mentioned,
             but what about all the other things we've done in between? Well, that's
             where these memories come into play. This is where all the small cute, 
             funny, sad, and happy moments we've had can exist.  
             </StyledParagraph>
-            <img src={construction} width='100%'/>
+            <img src={construction} width='100%' alt='construction tape'/>
         </Container>
     )
 }
@@ -26,20 +26,6 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-`
-
-const StyledHeader = styled.p`
-    font-family: amatic-bold;
-    text-align: center;
-    font-size: 45px;
-    margin-bottom: 0px;
-`
-const StyledHeader2 = styled.p`
-    font-family: amatic-bold;
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 0px;
-    color: grey;
 `
 
 const StyledParagraph = styled.p`

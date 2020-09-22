@@ -5,7 +5,7 @@ import background from '../../assets/christmas-lights.jpg';
 const ChristmasLights = () => {
     return (
         <Container>
-            <img src={background} width="100%" />
+            <img src={background} width="100%" alt='christmas'/>
             <StyledParagraph>
                 Every Christmas
             </StyledParagraph>

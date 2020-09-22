@@ -12,6 +12,7 @@ const LogInPage = () => {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         loginToApp(info.username, info.password);
         e.preventDefault();
+        setInfo({ username: '', password: ''});
     }
 
     const handleChange = (event: FormEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -22,7 +23,7 @@ const LogInPage = () => {
     return (
         <Container>
             <Component>
-                <img src={eye} width='90%' />
+                <img src={eye} width='90%' alt='eye'/>
             </Component>
             <StyledHeader>For your eyes only.</StyledHeader>
             <form onSubmit={handleSubmit}>

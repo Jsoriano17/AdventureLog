@@ -1,4 +1,3 @@
-import { NONAME } from 'dns';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import message from '../assets/message_of_the_day_gif.gif';

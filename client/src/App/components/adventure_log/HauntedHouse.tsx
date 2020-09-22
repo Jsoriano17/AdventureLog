@@ -6,7 +6,7 @@ import Line from '../../assets/fifth-sixth.png';
 const HauntedHouse = () => {
     return (
         <Container>
-            <img src={background} width="100%" />
+            <img src={background} width="100%" alt='haunted house' />
             <StyledParagraph>
                 Halloween was finally coming close and the two were looking
                 for something spooky to go do together.  They settled on the
@@ -24,7 +24,7 @@ const HauntedHouse = () => {
                 to the end and left home. before the night ended they shared
                 their first kiss.
             </StyledParagraph2>
-            <StyledLine src={Line} width='100%'/>
+            <StyledLine src={Line} width='100%' alt='line'/>
         </Container>
     )
 }

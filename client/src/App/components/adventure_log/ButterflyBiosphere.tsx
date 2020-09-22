@@ -6,7 +6,7 @@ import Line from '../../assets/fourth-fifth.png';
 const ButterflyBiosphere = () => {
     return (
         <Container>
-            <img src={background} width="100%"/>
+            <img src={background} width="100%" alt='butterfly'/>
             <StyledParagraph>
                 The butterfly biosphere a<br/> place I almost forgot 
                 about, I'm sure <br/>Jeff's tried to. This place<br/> was 
@@ -18,7 +18,7 @@ const ButterflyBiosphere = () => {
                 out ASAP. Savannah got Jeff to hold a butterfly 
                 and the two-headed home. 
             </StyledParagraph>
-            <StyledLine src={Line} width='100%'/>
+            <StyledLine src={Line} width='100%' alt='line'/>
         </Container>
     )
 }

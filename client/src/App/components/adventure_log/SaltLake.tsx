@@ -6,7 +6,7 @@ import Line from '../../assets/sixth-seventh.png';
 const SaltLake = () => {
     return (
         <Container>
-            <img src={background} width="100%" />
+            <img src={background} width="100%" alt='salt lake' />
             <StyledParagraph>
                 On a random occasion, Savannah and Jeff
                 decided <br/> to head to the great lake. It
@@ -19,7 +19,7 @@ const SaltLake = () => {
                 scenery. Not much else to say other than
                 it was a nice trip.
             </StyledParagraph2>
-            <StyledLine src={Line} width='100%'/>
+            <StyledLine src={Line} width='100%' alt='line'/>
         </Container>
     )
 }

@@ -6,7 +6,7 @@ import Line from '../../assets/third-fourth.png';
 const TheAquarium = () => {
     return (
         <Container>
-            <img src={background} width="100%" />
+            <img src={background} width="100%" alt='aquarium'/>
             <StyledParagraph>
                 Not long after the <br/>skating incident, <br/> the
                 two decided to  <br/>visit the aquarium. <br/> It was
@@ -15,7 +15,7 @@ const TheAquarium = () => {
                 talking about animals and themselves. They stayed in the 
                 aquarium until it closed and left satisfied.
             </StyledParagraph>
-            <StyledLine src={Line} width='100%'/>
+            <StyledLine src={Line} width='100%' alt='line'/>
         </Container>
     )
 }

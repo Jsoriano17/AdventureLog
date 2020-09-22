@@ -4,10 +4,9 @@ import background from '../../assets/first-date.jpg';
 import Line from '../../assets/first-second.png';
 
 const FirstDate = () => {
-    // Ahh the first date, probably 
     return (
         <Container>
-            <img src={background} width="100%" />
+            <img src={background} width="100%" alt='first date'/>
             <StyledParagraph>Ahh the first</StyledParagraph>
             <StyledParagraph2>date, probably</StyledParagraph2>
             <StyledParagraph3>one of the best days
@@ -20,7 +19,7 @@ const FirstDate = () => {
             catch a movie called "Ad Astra", and ended the day
             with some games at a local arcade.
             </StyledParagraph3>
-            <StyledLine src={Line} width='100%'/>
+            <StyledLine src={Line} width='100%' alt='line'/>
         </Container>
     )
 }

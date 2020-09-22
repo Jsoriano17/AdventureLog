@@ -6,7 +6,7 @@ import Line from '../../assets/third-fourth.png';
 const IceSkating = () => {
     return (
         <Container>
-            <img src={background} width="100%" />
+            <img src={background} width="100%" alt='ice skating' />
             <StyledParagraph>
                 Winter was just around the<br /> corner and
                 both of them were
@@ -26,7 +26,7 @@ const IceSkating = () => {
                 an excuse to come again).  The closing
                 time arrived and the day was over.
             </StyledParagraph4>
-            <StyledLine src={Line} width='100%'/>
+            <StyledLine src={Line} width='100%'alt='line'/>
         </Container>
     )
 }

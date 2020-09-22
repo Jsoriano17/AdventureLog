@@ -6,7 +6,7 @@ import Line from '../../assets/fourth-fifth.png';
 const ThePlanetarium = () => {
     return (
         <Container>
-            <img src={background} width="100%" />
+            <img src={background} width="100%" alt='planetarium'/>
             <StyledParagraph>
                 Going to the Planetarium<br /> was easily one of
                 the cooler things they did together.  This was
@@ -23,7 +23,7 @@ const ThePlanetarium = () => {
                 bit and got food. It was a very successful date
                 compared to the last one.
             </StyledParagraph2>
-            <StyledLine src={Line} width='100%'/>
+            <StyledLine src={Line} width='100%' alt='line'/>
         </Container>
     )
 }

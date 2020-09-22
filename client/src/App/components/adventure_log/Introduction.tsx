@@ -19,7 +19,7 @@ const Introduction  = () => {
             eventually met up for their first date on the 23rd of September 2019.  
             We'll let the rest of the page tell itself; enjoy!
             </StyledParagraph>
-            <StyledLine src={Line} width='100%'/>
+            <StyledLine src={Line} width='100%' alt='line'/>
         </Container>
     )
 }

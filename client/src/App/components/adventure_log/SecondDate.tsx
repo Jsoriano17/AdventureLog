@@ -6,7 +6,7 @@ import Line from '../../assets/second-third.png';
 const SecondDate = () => {
     return (
         <Container>
-            <img src={background} width="100%"/>
+            <img src={background} width="100%" alt='second date'/>
             <StyledParagraph>
                 The second date was rollerskating with a boy <br /> who
                 didn't know how to, nothing could
@@ -26,7 +26,7 @@ const SecondDate = () => {
                 the mountains where they relaxed near a waterfall under
                 the stars.
             </StyledParagraph4>
-            <StyledLine src={Line} width='100%'/>
+            <StyledLine src={Line} width='100%' alt='line'/>
         </Container>
     )
 }

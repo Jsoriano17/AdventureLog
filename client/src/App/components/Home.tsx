@@ -29,11 +29,11 @@ const Home = () => {
                 <Line />
             </Container>
             <Container>
-                <img src={FaceGif} width='100%' />
+                <img src={FaceGif} width='100%' alt='faces'/>
             </Container>
             <Container>
-                <StyledImg src={Savannah} width='100px'/>
-                <StyledImg2 src={Jeffrey} width='100px'/>
+                <StyledImg src={Savannah} width='100px' alt='name'/>
+                <StyledImg2 src={Jeffrey} width='100px' alt='name'/>
             </Container>
             <Container>
                 <Introduction />

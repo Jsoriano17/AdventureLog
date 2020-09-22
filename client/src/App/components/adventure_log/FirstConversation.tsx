@@ -7,8 +7,8 @@ const FirstConversation = () => {
     return (
         <Container>
             <StyledHeader>First Conversation</StyledHeader>
-            <StyledImg src={convo} width="100%"/>
-            <StyledLine src={Line} width='100%'/>
+            <StyledImg src={convo} width="100%" alt='convo'/>
+            <StyledLine src={Line} width='100%' alt='line'/>
         </Container>
     )
 }
