@@ -4,7 +4,7 @@ import agent from '../api/agent';
 import { history } from '../..';
 import { IMessage } from '../models/message';
 
-configure({enforceActions: "always"})
+configure({enforceActions: "always"});
 
 export class SharedStore {
     @observable loggedIn = false;
@@ -28,6 +28,16 @@ export class SharedStore {
             alert("Leave Now.");
         }
     }
+
+  @action getRandomMessage = async () => {
+    try {
+      const messages = await agent.Messages.list();
+      let randomMessage = messages[Math.floor(Math.random() * messages.length)]
+      alert(`"${randomMessage.description} -${randomMessage.author}"`);
+    } catch(error) {
+      console.log(error)
+    }
+  }
 
   @action createMessage = async (message: IMessage) => {
     try {

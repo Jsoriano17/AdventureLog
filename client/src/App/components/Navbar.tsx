@@ -1,13 +1,16 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import styled from 'styled-components';
 import message from '../assets/message_of_the_day_gif.gif';
 import { Link } from "react-scroll";
 import { Link as ReactRouterLink } from 'react-router-dom';
+import SharedStore from '../store/SharedStore';
 
 
 const Navbar = () => {
   const [active, setActive] = useState(true)
   const [hamburger, setHamburger] = useState("hamburger hamburger--elastic");
+  const sharedStore = useContext(SharedStore);
+  const { getRandomMessage } = sharedStore;
 
   const switchActive = (active: boolean) => {
     setActive(!active)
@@ -75,7 +78,7 @@ const Navbar = () => {
           <span className="hamburger-inner"></span>
         </span>
       </StyledButton>
-      <StyledImg src={message} width="80px" />
+      <StyledImg onClick={getRandomMessage} src={message} width="80px" />
       {showMenu(active)}
     </Container>
   )
