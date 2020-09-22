@@ -17,14 +17,21 @@
           "/Users/SomeWeirdWizard/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {}
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Domain/Domain.csproj": {
+                "projectPath": "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Domain/Domain.csproj"
+              },
+              "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Persistence/Persistence.csproj": {
+                "projectPath": "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Persistence/Persistence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -34,13 +41,11 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netstandard2.1": {
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
@@ -53,6 +58,125 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Domain/Domain.csproj",
+        "packagesPath": "/Users/SomeWeirdWizard/.nuget/packages/",
+        "outputPath": "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/SomeWeirdWizard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/SomeWeirdWizard/.nuget/packages/",
+        "outputPath": "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/SomeWeirdWizard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Domain/Domain.csproj": {
+                "projectPath": "/Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
