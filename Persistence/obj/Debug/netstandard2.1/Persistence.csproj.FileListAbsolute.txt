@@ -10,3 +10,15 @@
 /Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Persistence/obj/Debug/netstandard2.1/Persistence.csproj.CopyComplete
 /Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Persistence/obj/Debug/netstandard2.1/Persistence.dll
 /Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Persistence/obj/Debug/netstandard2.1/Persistence.pdb
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/bin/Debug/netstandard2.1/Persistence.deps.json
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/bin/Debug/netstandard2.1/Persistence.dll
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/bin/Debug/netstandard2.1/Persistence.pdb
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/bin/Debug/netstandard2.1/Domain.dll
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/bin/Debug/netstandard2.1/Domain.pdb
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/obj/Debug/netstandard2.1/Persistence.csprojAssemblyReference.cache
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/obj/Debug/netstandard2.1/Persistence.AssemblyInfoInputs.cache
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/obj/Debug/netstandard2.1/Persistence.AssemblyInfo.cs
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/obj/Debug/netstandard2.1/Persistence.csproj.CoreCompileInputs.cache
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/obj/Debug/netstandard2.1/Persistence.csproj.CopyComplete
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/obj/Debug/netstandard2.1/Persistence.dll
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Persistence/obj/Debug/netstandard2.1/Persistence.pdb

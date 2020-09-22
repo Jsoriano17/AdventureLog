@@ -7,3 +7,12 @@
 /Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Domain/obj/Debug/netstandard2.1/Domain.csproj.CoreCompileInputs.cache
 /Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Domain/obj/Debug/netstandard2.1/Domain.dll
 /Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Domain/obj/Debug/netstandard2.1/Domain.pdb
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Domain/bin/Debug/netstandard2.1/Domain.deps.json
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Domain/bin/Debug/netstandard2.1/Domain.dll
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Domain/bin/Debug/netstandard2.1/Domain.pdb
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Domain/obj/Debug/netstandard2.1/Domain.csprojAssemblyReference.cache
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Domain/obj/Debug/netstandard2.1/Domain.AssemblyInfoInputs.cache
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Domain/obj/Debug/netstandard2.1/Domain.AssemblyInfo.cs
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Domain/obj/Debug/netstandard2.1/Domain.csproj.CoreCompileInputs.cache
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Domain/obj/Debug/netstandard2.1/Domain.dll
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Domain/obj/Debug/netstandard2.1/Domain.pdb

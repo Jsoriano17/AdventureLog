@@ -12,3 +12,17 @@
 /Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Application/obj/Debug/netstandard2.1/Application.csproj.CopyComplete
 /Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Application/obj/Debug/netstandard2.1/Application.dll
 /Users/SomeWeirdWizard/Desktop/C#-React/AdventureLog/Application/obj/Debug/netstandard2.1/Application.pdb
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/bin/Debug/netstandard2.1/Application.deps.json
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/bin/Debug/netstandard2.1/Application.dll
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/bin/Debug/netstandard2.1/Application.pdb
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/bin/Debug/netstandard2.1/Domain.dll
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/bin/Debug/netstandard2.1/Persistence.dll
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/bin/Debug/netstandard2.1/Domain.pdb
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/bin/Debug/netstandard2.1/Persistence.pdb
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/obj/Debug/netstandard2.1/Application.csprojAssemblyReference.cache
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/obj/Debug/netstandard2.1/Application.AssemblyInfoInputs.cache
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/obj/Debug/netstandard2.1/Application.AssemblyInfo.cs
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/obj/Debug/netstandard2.1/Application.csproj.CoreCompileInputs.cache
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/obj/Debug/netstandard2.1/Application.csproj.CopyComplete
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/obj/Debug/netstandard2.1/Application.dll
+/Users/SomeWeirdWizard/Desktop/AdventureLog/Application/obj/Debug/netstandard2.1/Application.pdb

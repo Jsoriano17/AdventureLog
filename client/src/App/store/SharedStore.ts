@@ -10,6 +10,7 @@ export class SharedStore {
     @observable loggedIn = false;
     @observable loading = false;
 
+    //yes I know this can be seen lol
     @action loginToApp = (username: string, password: string) => {
         if (username === 'TobiBobi' && password === '092319' ) {
             runInAction("change log in ", () => {
