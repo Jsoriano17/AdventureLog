@@ -5,8 +5,9 @@ import Home from '../components/Home';
 import { observer } from 'mobx-react-lite';
 import SharedStore from '../store/SharedStore';
 import LogInPage from '../components/LogInPage';
-import Navbar from '../components/Navbar';
 import Loading from '../components/Loading';
+import MessageForm from '../components/Forms/MessageForm';
+import NotFound from '../components/NotFound';
 
 const App: React.FC = () => {
 
@@ -16,9 +17,10 @@ const App: React.FC = () => {
   if (loggedIn && !loading) {
     return (
       <>
-        <Navbar />
         <Switch>
-          <Route path='/' component={Home} />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/create-message' component={MessageForm} />
+          <Route component={NotFound} />
         </Switch>
       </>
     );

@@ -17,11 +17,13 @@ import { BackTop } from 'antd';
 import Memories from './Memories';
 import Savannah from '../assets/savannah-name.gif';
 import Jeffrey from '../assets/jeffrey-name.gif';
+import Navbar from './Navbar';
 
 
 const Home = () => {
     return (
         <>
+            <Navbar />
             <StyledHeader>Our Adventure</StyledHeader>
             <Container>
                 <Line />
@@ -29,11 +31,11 @@ const Home = () => {
                 <Line />
             </Container>
             <Container>
-                <img src={FaceGif} width='100%' alt='faces'/>
+                <img src={FaceGif} width='100%' alt='faces' />
             </Container>
             <Container>
-                <StyledImg src={Savannah} width='100px' alt='name'/>
-                <StyledImg2 src={Jeffrey} width='100px' alt='name'/>
+                <StyledImg src={Savannah} width='100px' alt='name' />
+                <StyledImg2 src={Jeffrey} width='100px' alt='name' />
             </Container>
             <Container>
                 <Introduction />

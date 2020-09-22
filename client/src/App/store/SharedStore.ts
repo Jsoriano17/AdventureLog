@@ -1,5 +1,8 @@
 import { action, configure, observable, runInAction } from 'mobx';
 import { createContext } from 'react';
+import agent from '../api/agent';
+import { history } from '../..';
+import { IMessage } from '../models/message';
 
 configure({enforceActions: "always"})
 
@@ -25,6 +28,21 @@ export class SharedStore {
             alert("Leave Now.");
         }
     }
+
+  @action createMessage = async (message: IMessage) => {
+    try {
+      await agent.Messages.create(message);
+      runInAction('create message', () => {
+      })
+      history.push('/');
+    } catch (error) {
+      runInAction('create message error', () => {
+        console.log(error);
+      })
+      console.log(error);
+    }
+  };
+
 }
 
 export default createContext(new SharedStore());

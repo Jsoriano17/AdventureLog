@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import message from '../assets/message_of_the_day_gif.gif';
 import { Link } from "react-scroll";
+import { Link as ReactRouterLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -30,7 +31,8 @@ const Navbar = () => {
                 smooth={true}
                 offset={10}
                 duration={500}
-                style={{color: 'black'}}
+                style={{ color: 'black' }}
+                onClick={() => switchActive(active)}
               >
                 The Beginning
               </Link>
@@ -43,13 +45,20 @@ const Navbar = () => {
                 smooth={true}
                 offset={40}
                 duration={1100}
-                style={{color: 'black'}}
+                style={{ color: 'black' }}
+                onClick={() => switchActive(active)}
               >
                 Memories
               </Link>
             </li>
             <li>Create Memory</li>
-            <li>Add Message...</li>
+            <ReactRouterLink
+              to={'/create-message'}
+              style={{ color: 'black' }}
+              onClick={() => switchActive(active)}
+            >
+              Add Message...
+              </ReactRouterLink>
           </StyledUl>
         </StyledNav>
       )
